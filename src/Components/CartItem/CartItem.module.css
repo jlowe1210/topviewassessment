@@ -1,0 +1,26 @@
+.cartitem_container{
+    display: flex;
+    margin: 20px auto;
+    max-width: 1000px;
+    
+}
+
+.cartitem_image_container{
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+.cartitem_image{
+    width: 100%;
+    height: 100%
+}
+
+.cartitem_details p {
+    margin: 10px 0
+}
+
+.remove_btn{
+    margin-top: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}

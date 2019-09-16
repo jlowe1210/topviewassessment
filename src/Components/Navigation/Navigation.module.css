@@ -1,0 +1,40 @@
+.main_header{
+    width: 100%;
+    background-color: black;
+}
+
+.main_nav{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.nav_items {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_logo{
+    font-size: 25px;
+}
+
+.nav_link{
+    color: white;
+    text-decoration: none;
+}
+
+li{
+    color: white;
+    padding: 20px
+}
+
+.cart_container{
+    position: relative;
+}
+
+.total_quantity{
+    position: absolute;
+    top: 5px;
+    left: 26px;
+}

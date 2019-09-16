@@ -1,0 +1,16 @@
+.section_container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.section_header{
+    text-align: center;
+}
+
+.products_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+}

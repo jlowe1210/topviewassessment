@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-basis: 33%;
+    justify-content: center;
+    
+}
+
+.container_body{
+    position: fixed;
+    padding: 0 10px;
+}
+
+.checkout_btn{
+    padding: 15px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+    width: 100%
+}
+
+@media only screen and (max-width: 520px) {
+    .container{
+        width: 66%;
+        display: block;
+        flex-basis: auto;
+    }
+    .container_body{
+        position: relative;
+    }
+    .checkout_btn{
+        width: 100%;
+        font-size: 20px
+    }
+  }

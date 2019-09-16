@@ -1,0 +1,28 @@
+.container{
+    max-width: 1000px;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px auto;
+}
+
+
+.empty_cart_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.error_message{
+    position: sticky;
+    background: red;
+    color: white;
+    top: 0;
+    /* width: 300px; */
+    padding: 10px;
+    text-align: center
+}
